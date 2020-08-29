@@ -1,0 +1,100 @@
+
+input{
+    font-size: 18px;
+    background-color #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 50%;
+    padding: 13px 13px 13px 20px;
+    margin: 13px;
+    box-sizing: border-box;
+}
+
+input:focus{
+background-color: cornflowerblue;
+    border: 2px solid yellow;
+    outline: none;
+}
+
+li{
+background-color: azure;
+height: 40px;
+line-height: 40px;
+color: black;
+
+}
+li:nth-child(2n){
+
+    background-color: background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+
+ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: Alata;
+}
+
+h1{
+background-color: #50C9C3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: black;
+margin: 0;
+padding: 10px 20px;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: normal;
+}
+
+#container{
+    width: 500px;
+    margin: 100px auto;
+    border: 2px solid background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #C0C0C0	;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.completed{
+color: gray;
+text-decoration: line-through;
+}
+
+body{
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+span{
+
+    background-color: red;
+    height: 48px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+transition: 0.2s linear;
+opacity: 0;
+
+}
+
+li:hover span{
+opacity: 1.0;
+    width: 40px;
+
+
+
+}
